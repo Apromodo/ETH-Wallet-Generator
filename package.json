@@ -1,6 +1,6 @@
 {
     "name": "@apromodo/eth-vanity-wallet-generator",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "ethereum vanity address generator",
     "main": "index.js",
     "type": "module",

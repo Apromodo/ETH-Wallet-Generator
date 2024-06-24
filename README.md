@@ -43,6 +43,16 @@ Generate an Ethereum address with a vanity contract address:
 $ cwallet -i deadbeef --contract
 ```
 
+Generate 10 Ethereum addresses with `beef` as ending characters:
+```sh
+$ cwallet -n 10 -s beef
+```
+
+Generate 10 Ethereum addresses with both `dead` as starting and `beef` as ending characters:
+```sh
+$ cwallet -n 10 -i dead -s beef
+```
+
 Log output to a file:
 ```sh
 $ cwallet -n 10 -l

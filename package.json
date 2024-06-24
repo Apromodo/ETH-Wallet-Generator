@@ -1,39 +1,43 @@
 {
-    "name": "eth-vanity-wallet-generator",
+    "name": "@apromodo/eth-vanity-wallet-generator",
     "version": "1.0.1",
     "description": "ethereum vanity address generator",
     "main": "index.js",
     "type": "module",
     "scripts": {
-        "start": "node index.js",
-        "test": "echo \"Error: no test specified\" && exit 1"
+      "start": "node index.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
-        "type": "git",
-        "url": "git+https://github.com/Apromodo/eth-vanity-wallet-generator.git"
+      "type": "git",
+      "url": "git+https://github.com/Apromodo/eth-vanity-wallet-generator.git"
     },
     "keywords": [
-        "ethereum",
-        "vanity",
-        "wallet",
-        "generator"
+      "ethereum",
+      "vanity",
+      "wallet",
+      "generator"
     ],
     "author": "Apromodo",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/Apromodo/eth-vanity-wallet-generator/issues"
+      "url": "https://github.com/Apromodo/eth-vanity-wallet-generator/issues"
     },
     "bin": {
-        "cwallet": "index.js"
+      "cwallet": "index.js"
     },
     "homepage": "https://github.com/Apromodo/eth-vanity-wallet-generator#readme",
+    "publishConfig": {
+      "registry": "https://npm.pkg.github.com"
+    },
     "dependencies": {
-        "cluster": "^0.7.7",
-        "ethereumjs-util": "^7.0.9",
-        "fs": "^0.0.1-security",
-        "hh-mm-ss": "^1.2.0",
-        "ora": "^8.0.1",
-        "os": "^0.1.2",
-        "yargs": "^17.7.2"
+      "ethereumjs-util": "^7.0.9",
+      "hh-mm-ss": "^1.3.2",
+      "ora": "^6.0.1",
+      "yargs": "^17.2.1",
+      "cluster": "^0.7.7",
+      "os": "^0.1.1",
+      "fs": "0.0.1-security"
     }
-}
+  }
+  

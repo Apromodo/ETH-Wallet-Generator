@@ -1,5 +1,5 @@
 {
-    "name": "eth-wallet-generator",
+    "name": "eth-vanity-wallet-generator",
     "version": "1.0.0",
     "description": "ethereum vanity address generator",
     "main": "index.js",
@@ -10,7 +10,7 @@
     },
     "repository": {
       "type": "git",
-      "url": "git+https://github.com/Apromodo/eth-wallet-generator.git"
+      "url": "git+https://github.com/Apromodo/eth-vanity-wallet-generator.git"
     },
     "keywords": [
       "ethereum",
@@ -21,12 +21,12 @@
     "author": "Apromodo",
     "license": "MIT",
     "bugs": {
-      "url": "https://github.com/Apromodo/eth-wallet-generator/issues"
+      "url": "https://github.com/Apromodo/eth-vanity-wallet-generator/issues"
     },
     "bin": {
       "cwallet": "index.js"
     },
-    "homepage": "https://github.com/Apromodo/eth-wallet-generator#readme",
+    "homepage": "https://github.com/Apromodo/eth-vanity-wallet-generator#readme",
     "dependencies": {
       "ethereumjs-util": "^7.0.9",
       "hh-mm-ss": "^1.3.0",
